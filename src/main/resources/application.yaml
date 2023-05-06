@@ -1,0 +1,13 @@
+spring:
+  main:
+    banner-mode: off
+  output:
+    ansi:
+      enabled: always
+
+logging:
+  level:
+    root: info
+    com.example.nativecliexample.api: info
+  pattern:
+    console: "%clr(%m){faint}%n"
